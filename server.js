@@ -9,7 +9,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hi mates, I have deployed nodejs app using my docker image into kubernetes');
 });
 
 app.listen(PORT, HOST);
